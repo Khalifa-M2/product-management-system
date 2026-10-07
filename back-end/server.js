@@ -14,7 +14,7 @@ import { requireAuth } from "./middleware/auth.js";
 import { getDashboard } from "./controllers/dashboardController.js";
 
 const app = express();
-const port = Number(process.env.PORT || 5000);
+const port = Number(process.env.PORT || 5001);
 
 async function provisionInitialAdmin() {
     const username = process.env.ADMIN_USERNAME?.trim();

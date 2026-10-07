@@ -33,6 +33,6 @@ npm install
 npm run dev
 ```
 
-Open the local Vite URL shown in the terminal (normally `http://localhost:5173`). Vite proxies `/api` requests to the Node API on port `5000`. Start MongoDB and the backend before signing in or creating an account.
+Open the local Vite URL shown in the terminal (normally `http://localhost:5173`). Vite proxies `/api` requests to the Node API on port `5001`. Start MongoDB and the backend before signing in or creating an account.
 
 Production builds can be checked with `npm run build` from `front-end`.
